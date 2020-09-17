@@ -1,0 +1,919 @@
+@media (max-width: 1800px) {
+  .intro {
+    &::before {
+      width: 700px;
+      top: 400px;
+      left: 750px;
+    }
+  }
+  .shape {
+    background-size: 70%;
+    width: 650px;
+    left: 230px;
+  }
+}
+@media (max-width: 1660px) {
+  .intro {
+    &::before {
+      width: 500px;
+      top: 375px;
+      left: 610px;
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .header {
+    height: 160px;
+  }
+
+  .header__inner {
+    padding: 20px;
+  }
+  .intro {
+    &::before {
+      left: 500px;
+      top: 310px;
+    }
+    &__inner {
+      max-width: 585px;
+    }
+  }
+  .intro__inner-title {
+    font-size: 75px;
+    &__text {
+      font-size: 21px;
+      padding: 25px 0 30px 20px;
+    }
+  }
+  .intro__inner-text {
+    font-size: 25px;
+    padding: 0 0 25px 30px;
+  }
+  .shape {
+    background-size: contain;
+    width: 443px;
+    left: 140px;
+  }
+  .story::before {
+    display: none;
+  }
+  .canadian-immigration__inner h3 {
+    font-size: 60px;
+  }
+  .immigration__item-title {
+    font-size: 22px;
+    height: 150px;
+    padding: 20px 40px;
+  }
+  .immigration__item-content ul li {
+    font-size: 22px;
+  }
+  .immigration__item p {
+    font-size: 22px;
+  }
+  .citizenship__inner h3 {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  .citizenship__inner p,
+  .citizenship__inner td {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .destinations-table tr:first-child td {
+    font-size: 35px;
+  }
+  .destinations-table tr:last-child td {
+    font-size: 23px;
+  }
+  .destinations-box a.contact {
+    font-size: 23px;
+  }
+  .contact__inner h3 {
+    font-size: 65px;
+    letter-spacing: 3px;
+  }
+  .contact__inner p {
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  .contact__inner div {
+    font-size: 45px;
+  }
+  .about-us__inner h3 {
+    font-size: 60px;
+  }
+  .director h4 {
+    font-size: 30px;
+  }
+  .director p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .person h4 {
+    font-size: 30px;
+  }
+  .person__inner .italic {
+    font-size: 35px;
+  }
+  .person__inner p,
+  .about p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .about h4 {
+    font-size: 35px;
+  }
+  .stuff__item h4 {
+    font-size: 25px;
+  }
+  .stuff__item-box h4 {
+    font-size: 30px;
+  }
+  .stuff__item-box p {
+    font-size: 23px;
+  }
+  .stuff__item-box {
+    width: 550px;
+  }
+  .immigration__title {
+    font-size: 65px;
+  }
+  .immigration__box a {
+    font-size: 40px;
+  }
+  .immigration__box p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1236px) {
+  .business-services__middle-header {
+    top: 43%;
+  }
+  .means__inner-box__left {
+    height: 700px;
+    width: 80%;
+    margin-right: 0;
+  }
+  .means__inner-box__right {
+    width: 80%;
+    margin-top: 20px;
+    height: 800px;
+  }
+  .means__inner-box__left p,
+  .means__inner-box__left ul,
+  .means__inner-box__right p,
+  .means__inner-box__right ul {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1150px) {
+  .intro::before {
+    left: 385px;
+    height: 300px;
+    width: 400px;
+    top: 390px;
+    transform: rotate(140deg);
+  }
+  .intro__inner {
+    padding-left: 0;
+  }
+  .shape {
+    width: 395px;
+  }
+  .intro__inner-title {
+    font-size: 65px;
+    &__text {
+      font-size: 20px;
+      padding: 20px 0 20px 60px;
+    }
+  }
+  .intro__inner-text {
+    font-size: 22px;
+    padding-bottom: 25px;
+  }
+  .services__inner,
+  .business__inner {
+    max-width: 650px;
+  }
+  .story__inner-title {
+    font-size: 100px;
+  }
+  .specifics__inner-item {
+    width: 51%;
+    margin-bottom: 80px;
+    img {
+      height: 500px;
+      min-height: unset;
+    }
+    .specifics__inner-item__text {
+      min-height: unset;
+      min-width: unset;
+      p {
+        text-align: center;
+        line-height: 30px;
+      }
+    }
+  }
+  .business-services::after {
+    display: none;
+  }
+  .business-services__middle-header {
+    top: 30%;
+  }
+  .needs__inner-item {
+    width: 600px;
+  }
+  .immigration__item-content__right span {
+    font-size: 22px;
+  }
+  .footer.index,
+  .footer.contact {
+    p {
+      font-size: 35px;
+    }
+  }
+  .stuff {
+    width: 400px;
+  }
+  .person__box img {
+    width: 225px;
+  }
+  .stuff__item img {
+    width: 225px;
+  }
+  .about {
+    padding-bottom: 225px;
+  }
+  .about-us__inner {
+    margin-bottom: 130px;
+  }
+  .stuff__item-box--3 {
+    top: 700px;
+  }
+}
+@media (max-width: 960px) {
+  .intro::before {
+    display: none;
+  }
+  .intro__inner {
+    max-width: 560px;
+  }
+  .services__inner {
+    padding-top: 100px;
+    p {
+      font-size: 22px;
+    }
+  }
+  .top-title {
+    font-size: 55px;
+  }
+  .specifics__inner-item {
+    width: 80%;
+    min-width: unset;
+  }
+  .map__inner::before {
+    top: 14%;
+  }
+  .canadian-immigration::before,
+  .canadian-immigration::after {
+    display: none;
+  }
+  .canadian-immigration__inner h3 {
+    font-size: 50px;
+  }
+  .immigration__item-title {
+    font-size: 19px;
+    height: 100px;
+  }
+  .immigration__item p {
+    font-size: 19px;
+  }
+  .immigration__item-content {
+    padding: 10px;
+    width: 120%;
+    max-height: 600px;
+    overflow-y: scroll;
+  }
+  .immigration__item-content ul li {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .immigration__item-content h4 {
+    font-size: 22px;
+  }
+  .immigration__item-content__right span {
+    width: unset;
+    font-size: 19px;
+  }
+  .immigration__item-content__right a {
+    font-size: 22px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 900px) {
+  .burger-menu {
+    display: flex;
+  }
+  .nav__inner {
+    display: none;
+  }
+  .menu-aside {
+    display: block;
+    transform: translateX(-110%);
+    position: absolute;
+    top: 110%;
+    left: 0;
+    margin-left: 20px;
+    z-index: 4;
+    height: 370px;
+    width: 280px;
+    background-color: #91b29c;
+    border-radius: 50px;
+    filter: drop-shadow((-5px -5px 5px white));
+    transition: all 0.3s;
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      li {
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px;
+        a {
+          color: #54524f;
+        }
+      }
+      input {
+        border-radius: 50px;
+        border: none;
+        background-color: #8b9a8a;
+        opacity: 0.5;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-position: 180px;
+        background-size: 30px;
+        outline: none;
+        padding: 0 20px;
+        background-image: url("../images/search-icon.png");
+        &:focus {
+          background-image: none;
+        }
+      }
+    }
+    &.active {
+      transform: translateX(0);
+    }
+  }
+  .shape {
+    width: 330px;
+    left: 115px;
+  }
+  .intro::after {
+    height: 140px;
+    bottom: -90px;
+  }
+  .business-shape {
+    display: none;
+  }
+  .map__inner::before {
+    display: none;
+  }
+  .contact__inner {
+    padding: 0 30px 160px;
+  }
+  .contact__inner::after {
+    display: none;
+  }
+  .contact__inner h3 {
+    font-size: 45px;
+  }
+  .contact__inner p {
+    font-size: 25px;
+  }
+  .contact__inner span {
+    font-size: 50px;
+  }
+  .contact__name,
+  .contact__email {
+    flex-wrap: wrap;
+  }
+  .contact__inner input {
+    width: 100%;
+    margin-left: 0;
+  }
+  .immigration__item-title {
+    font-size: 14px;
+    height: 85px;
+    padding: 10px 25px;
+  }
+  .citizenship__inner h3 {
+    font-size: 50px;
+  }
+  .citizenship__inner h4 {
+    font-size: 33px;
+    margin-bottom: 30px;
+  }
+  .citizenship__inner p,
+  .citizenship__inner td {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .destinations-table tr:first-child td {
+    font-size: 25px;
+  }
+  .destinations-table tr:last-child td {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .destinations-box a.contact {
+    font-size: 19px;
+  }
+  .contact__inner span {
+    font-size: 35px;
+  }
+  .send {
+    font-size: 20px;
+  }
+  .stuff::before {
+    display: none;
+  }
+  .about-us__inner h3 {
+    font-size: 45px;
+  }
+  .director h4 {
+    font-size: 25px;
+  }
+  .director p {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .person h4 {
+    font-size: 25px;
+  }
+  .person__inner .italic {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .person__inner p,
+  .about p {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .about h4 {
+    font-size: 30px;
+  }
+  .stuff {
+    width: 250px;
+  }
+  .stuff__item h4 {
+    font-size: 21px;
+  }
+  .stuff__item-box {
+    width: 340px;
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 20px 10px;
+  }
+  .stuff__item-box p {
+    font-size: 19px;
+  }
+  .immigration-services__inner {
+    width: 85%;
+  }
+  .immigration__title {
+    font-size: 45px;
+  }
+  .immigration__box a {
+    font-size: 30px;
+  }
+  .immigration__box p {
+    font-size: 19px;
+  }
+  .immigration-services__inner {
+    padding: 20px;
+  }
+  .immigration__box a::before {
+    right: -100px;
+  }
+  .immigration__box:nth-child(3) a::before {
+    left: 0;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    height: 150px;
+    img {
+      width: 80px;
+    }
+  }
+  .shape {
+    width: 270px;
+    left: 95px;
+  }
+  .intro__inner {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .intro__inner-title {
+    padding-top: 200px;
+    font-size: 75px;
+  }
+  .intro__inner-title__text,
+  .intro__inner-text {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  .services__inner {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 15px 0 15px;
+    p {
+      text-align: center;
+    }
+  }
+  .business {
+    margin-top: -455px;
+  }
+  .business__inner {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 310px;
+    p {
+      text-align: center;
+    }
+  }
+  .specifics__inner-item {
+    width: 90%;
+    img {
+      height: 400px;
+      margin-bottom: 10px;
+    }
+  }
+  .map__inner {
+    p {
+      font-size: 16px;
+      line-height: 40px;
+    }
+    img {
+      width: 450px;
+    }
+  }
+  .contact__inner h3 {
+    font-size: 40px;
+    letter-spacing: 0px;
+    padding-top: 40px;
+  }
+  .footer.index,
+  .footer.contact {
+    p {
+      font-size: 30px;
+    }
+    ul {
+      justify-content: center;
+      li {
+        a {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .contactform::before {
+    display: none;
+  }
+  .footer.contact::after {
+    height: 170px;
+  }
+  .footer__contact-shape {
+    height: 170px;
+  }
+  .means h1,
+  .means h2,
+  .means .means__top-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .means__inner-box__left h4,
+  .means__inner-box__right h4 {
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+
+  .means__inner-box__left,
+  .means__inner-box__right {
+    width: 95%;
+    padding: 20px;
+  }
+  .business-services__middle-header {
+    top: 34.5%;
+    font-size: 23px;
+    padding: 60px 15px;
+  }
+  .needs__inner-item h4 {
+    font-size: 25px;
+  }
+  .needs__inner-item p {
+    margin-top: 70%;
+    font-size: 23px;
+  }
+  .talk-btn {
+    padding: 20px 30px;
+  }
+  .talk-btn button {
+    font-size: 22px;
+  }
+  .canadian-immigration__inner h3 {
+    font-size: 35px;
+  }
+
+  .immigration__inner {
+    padding: 40px;
+  }
+  .immigration__item-content {
+    width: 300px;
+  }
+  .immigration__item p {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .immigration__item-title {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .canadian-immigration__inner::before {
+    width: 50%;
+    height: 79%;
+  }
+  .immigration__item {
+    .immigration__item-descr {
+      display: none;
+    }
+  }
+  .immigration__item-title {
+    font-size: 10px;
+  }
+  .immigration__item-title.active + .immigration__item-descr {
+    display: block;
+    font-size: 15px;
+  }
+  .immigration__item-content ul li,
+  .immigration__item p {
+    font-size: 15px;
+  }
+  .immigration__item-content__right span {
+    font-size: 16px;
+  }
+  .immigration__item-content h4 {
+    font-size: 19px;
+  }
+  .immigration__item-content__right a {
+    font-size: 19px;
+    width: 120px;
+  }
+  .citizenship__inner {
+    padding: 30px 20px;
+  }
+  .citizenship__inner h3 {
+    font-size: 40px;
+  }
+  .citizenship__inner h4 {
+    font-size: 25px;
+  }
+  .citizenship__inner p,
+  .citizenship__inner td {
+    font-size: 17px;
+  }
+  .citizenship__inner table tr td {
+    padding: 5px;
+  }
+  .destinations-table tr:first-child td {
+    font-size: 19px;
+  }
+  .destinations-table tr:last-child td {
+    font-size: 17px;
+  }
+  .destinations-table tr:last-child td {
+    padding: 5px;
+  }
+  .destinations-box a.contact {
+    font-size: 17px;
+  }
+  .contact__inner {
+    padding: 0 10px 160px;
+  }
+  .stuff {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  .stuff__item-box {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  .stuff__item-box--1 {
+    top: 350px;
+  }
+  .stuff__item-box--2 {
+    top: 770px;
+  }
+  .stuff__item-box--3 {
+    top: 1160px;
+  }
+  .about-us__inner {
+    margin-bottom: 380px;
+  }
+  .immigration__box a {
+    width: 100%;
+  }
+  .immigration__box a::before {
+    right: 0;
+  }
+  .immigration-services__inner::before {
+    display: none;
+  }
+  .contact__inner input {
+    font-size: 25px;
+  }
+  .contact__inner textarea {
+    font-size: 25px;
+  }
+}
+@media (max-width: 470px) {
+  .shape {
+    display: none;
+  }
+  .services__inner {
+    p {
+      line-height: 40px;
+    }
+  }
+  .specifics__inner-item {
+    img {
+      height: 300px;
+    }
+  }
+  .map__inner {
+    img {
+      width: 315px;
+    }
+    h2 {
+      line-height: 40px;
+      letter-spacing: 0;
+    }
+  }
+  .needs__inner-item p {
+    font-size: 19px;
+  }
+  .needs__inner-item h4 {
+    font-size: 21px;
+  }
+  .needs {
+    margin: -170px 5px 50px 5px;
+  }
+  .means__inner-box__left p,
+  .means__inner-box__left ul,
+  .means__inner-box__right p,
+  .means__inner-box__right ul {
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 27px;
+  }
+  .business-services__middle-header {
+    font-size: 20px;
+    top: 38%;
+  }
+  .immigration__item-content {
+    width: 100%;
+    top: 105%;
+    left: 0;
+    right: 0;
+    background-color: #91b29c;
+  }
+  .immigration__item-content__right a {
+    background-color: #8b9a8a;
+  }
+  .immigration__item-title {
+    background-color: transparent;
+    color: #000000;
+    clip-path: none;
+    font-size: 20px;
+    height: auto;
+    margin-left: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-left: 0;
+  }
+  .immigration__item {
+    width: 100%;
+  }
+  .canadian-immigration__inner::before {
+    display: none;
+  }
+  .canadian-immigration__inner {
+    margin: 0 15px 100px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .immigration__inner-box {
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .citizenship {
+    padding-top: 155px;
+  }
+  .citizenship__inner p,
+  .citizenship__inner td {
+    font-size: 17px;
+  }
+  .director {
+    margin-right: 0;
+    padding: 15px 10px;
+  }
+  .about-us__inner {
+    margin: 0 5px 445px;
+    padding: 10px;
+  }
+  .director p {
+    font-size: 17px;
+  }
+  .person {
+    margin: 230px 0 50px;
+  }
+  .person h4 {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  .person__title {
+    width: 100%;
+  }
+  .person__box img {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 150px;
+  }
+  .person__inner {
+    margin-left: 0;
+  }
+  .person {
+    padding: 30px 10px 0;
+  }
+  .person__inner {
+    padding: 10px;
+  }
+  .person__inner p,
+  .about p {
+    font-size: 17px;
+  }
+  .about {
+    padding: 30px 10px 360px 10px;
+    margin-right: 0;
+  }
+  .stuff__item-box p {
+    font-size: 17px;
+  }
+  .stuff__item-box--1 {
+    top: 270px;
+  }
+  .stuff__item-box--2 {
+    top: 630px;
+  }
+  .stuff__item-box--3 {
+    top: 970px;
+  }
+  .stuff__item img {
+    width: 160px;
+  }
+  .immigration__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .immigration__box a {
+    font-size: 23px;
+  }
+  .immigration__box {
+    font-size: 17px;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 350px) {
+  .business-services__middle-header {
+    top: 41%;
+  }
+}
