@@ -27,7 +27,12 @@
   }
 
   .header__inner {
-    padding: 20px;
+    padding: 0 20px;
+  }
+  .logo {
+    img {
+      width: 65px;
+    }
   }
   .intro {
     &::before {
@@ -147,9 +152,6 @@
   }
 }
 @media (max-width: 1236px) {
-  .business-services__middle-header {
-    top: 43%;
-  }
   .means__inner-box__left {
     height: 700px;
     width: 80%;
@@ -219,12 +221,6 @@
   }
   .business-services::after {
     display: none;
-  }
-  .business-services__middle-header {
-    top: 30%;
-  }
-  .needs__inner-item {
-    width: 600px;
   }
   .immigration__item-content__right span {
     font-size: 22px;
@@ -316,6 +312,9 @@
 @media (max-width: 900px) {
   .burger-menu {
     display: flex;
+  }
+  .header__inner {
+    padding: 20px;
   }
   .nav__inner {
     display: none;
@@ -516,9 +515,23 @@
       width: 80px;
     }
   }
+  .menu-aside {
+    height: 285px;
+  }
+  .menu-aside__inner li {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10px;
+  }
+  .menu-aside__inner input {
+    padding: 0 40px;
+  }
   .shape {
     width: 270px;
     left: 95px;
+  }
+  .intro {
+    padding-bottom: 70px;
   }
   .intro__inner {
     margin: 0 auto;
@@ -532,15 +545,26 @@
   .intro__inner-text {
     padding: 20px 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .button.contact {
+    font-size: 14px;
+    line-height: 19px;
   }
   .services__inner {
     max-width: 100%;
     margin: 0 auto;
-    padding: 100px 15px 0 15px;
-    p {
-      text-align: center;
-    }
+    padding: 0;
+  }
+  .services__inner p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .top-title {
+    line-height: 60px;
+    margin-bottom: 0;
   }
   .business {
     margin-top: -455px;
@@ -548,10 +572,15 @@
   .business__inner {
     max-width: 100%;
     margin: 0 auto;
-    padding-top: 310px;
+    padding-top: 200px;
     p {
       text-align: center;
+      font-size: 16px;
+      line-height: 22px;
     }
+  }
+  .story__inner .button-story {
+    font-size: 20px;
   }
   .specifics__inner-item {
     width: 90%;
@@ -560,35 +589,96 @@
       margin-bottom: 10px;
     }
   }
+  .specifics__inner-box {
+    margin-bottom: 0;
+  }
+  .specifics__inner-item .specifics__inner-item__text h3 {
+    font-size: 19px;
+    line-height: 23px;
+    margin-bottom: 0;
+    padding-top: 10px;
+  }
+  .specifics__inner-item .specifics__inner-item__text p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .button.dark {
+    font-size: 15px;
+  }
+  .map {
+    margin-top: 150px;
+    padding-top: 75px;
+  }
   .map__inner {
+    h2 {
+      font-size: 19px;
+      line-height: 25px;
+    }
     p {
-      font-size: 16px;
-      line-height: 40px;
+      font-size: 14px;
+      line-height: 27px;
     }
     img {
       width: 450px;
     }
   }
+  .map::after {
+    height: 125px;
+  }
   .contact__inner h3 {
-    font-size: 40px;
+    font-size: 25px;
     letter-spacing: 0px;
-    padding-top: 40px;
+    padding-top: 20px;
+  }
+  .contact__inner p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .contact__inner span {
+    font-size: 18px;
   }
   .footer.index,
   .footer.contact {
     p {
-      font-size: 30px;
+      font-size: 14px;
+      line-height: 22px;
     }
     ul {
       justify-content: center;
       li {
         a {
           p {
-            font-size: 20px;
+            font-size: 14px;
           }
         }
       }
     }
+  }
+  .footer.index .social {
+    margin-top: 0;
+  }
+  .footer.contact .social {
+    margin-top: 0;
+  }
+  .footer.index ul li a img,
+  .footer.contact ul li a img {
+    max-height: 35px;
+  }
+  .footer.index p {
+    padding: 0;
+  }
+  .footer.contact p {
+    padding: 8px;
+  }
+  .footer.index,
+  .footer.contact {
+    padding-top: 100px;
+  }
+
+  .footer.index::after {
+    top: -65px;
+    height: 125px;
   }
   .contactform::before {
     display: none;
@@ -598,6 +688,17 @@
   }
   .footer__contact-shape {
     height: 170px;
+  }
+  .means h1 {
+    padding-top: 180px;
+    font-size: 35px;
+  }
+  .means h2 {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .means .means__top-title {
+    font-size: 20px;
   }
   .means h1,
   .means h2,
@@ -609,18 +710,19 @@
   .means__inner-box__left h4,
   .means__inner-box__right h4 {
     margin-bottom: 20px;
-    padding: 30px;
+    padding: 10px;
+    font-size: 20px;
   }
 
   .means__inner-box__left,
   .means__inner-box__right {
     width: 95%;
     padding: 20px;
+    height: auto;
   }
   .business-services__middle-header {
-    top: 34.5%;
     font-size: 23px;
-    padding: 60px 15px;
+    padding: 70px 15px;
   }
   .needs__inner-item h4 {
     font-size: 25px;
@@ -630,10 +732,10 @@
     font-size: 23px;
   }
   .talk-btn {
-    padding: 20px 30px;
+    padding: 15px 25px;
   }
   .talk-btn button {
-    font-size: 22px;
+    font-size: 14px;
   }
   .canadian-immigration__inner h3 {
     font-size: 35px;
@@ -713,6 +815,10 @@
   }
   .contact__inner {
     padding: 0 10px 160px;
+    margin: 0;
+  }
+  .about-us__inner {
+    margin-bottom: 0;
   }
   .stuff {
     width: 100%;
@@ -720,9 +826,9 @@
     right: 0;
   }
   .stuff__item-box {
+    position: static;
     width: 100%;
-    left: 0;
-    right: 0;
+    margin-top: 10px;
   }
   .stuff__item-box--1 {
     top: 350px;
@@ -733,8 +839,16 @@
   .stuff__item-box--3 {
     top: 1160px;
   }
-  .about-us__inner {
-    margin-bottom: 380px;
+  .about-us__inner h3 {
+    font-size: 35px;
+  }
+  .director h4 {
+    font-size: 21px;
+    margin-bottom: 0;
+  }
+  .director p {
+    font-size: 14px;
+    line-height: 19px;
   }
   .immigration__box a {
     width: 100%;
@@ -742,24 +856,34 @@
   .immigration__box a::before {
     right: 0;
   }
+  .immigration-services__inner {
+    width: 95%;
+    padding: 10px;
+  }
   .immigration-services__inner::before {
     display: none;
   }
   .contact__inner input {
-    font-size: 25px;
+    font-size: 14px;
+    height: 40px;
+  }
+  .contact__inner .contact__name,
+  .contact__inner .contact__email {
+    margin-bottom: 10px;
   }
   .contact__inner textarea {
-    font-size: 25px;
+    font-size: 14px;
+  }
+  .contact__inner div {
+    font-size: 18px;
+  }
+  .send {
+    font-size: 14px;
   }
 }
 @media (max-width: 470px) {
   .shape {
     display: none;
-  }
-  .services__inner {
-    p {
-      line-height: 40px;
-    }
   }
   .specifics__inner-item {
     img {
@@ -768,7 +892,7 @@
   }
   .map__inner {
     img {
-      width: 315px;
+      width: 300px;
     }
     h2 {
       line-height: 40px;
@@ -776,10 +900,10 @@
     }
   }
   .needs__inner-item p {
-    font-size: 19px;
+    font-size: 14px;
   }
   .needs__inner-item h4 {
-    font-size: 21px;
+    font-size: 19px;
   }
   .needs {
     margin: -170px 5px 50px 5px;
@@ -788,15 +912,15 @@
   .means__inner-box__left ul,
   .means__inner-box__right p,
   .means__inner-box__right ul {
-    font-size: 19px;
-    letter-spacing: 1px;
-    line-height: 27px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
   }
   .business-services__middle-header {
     font-size: 20px;
-    top: 38%;
   }
   .immigration__item-content {
+    position: static;
     width: 100%;
     top: 105%;
     left: 0;
@@ -846,17 +970,18 @@
     padding: 15px 10px;
   }
   .about-us__inner {
-    margin: 0 5px 445px;
-    padding: 10px;
-  }
-  .director p {
-    font-size: 17px;
+    padding: 5px;
+    margin: 0;
   }
   .person {
     margin: 230px 0 50px;
   }
   .person h4 {
-    font-size: 23px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .person__inner .italic {
+    font-size: 21px;
     line-height: 25px;
   }
   .person__title {
@@ -879,41 +1004,42 @@
   }
   .person__inner p,
   .about p {
-    font-size: 17px;
+    font-size: 14px;
+    line-height: 19px;
   }
   .about {
-    padding: 30px 10px 360px 10px;
+    padding: 30px 10px 175px 10px;
     margin-right: 0;
   }
+  .stuff__item h4 {
+    font-size: 14px;
+  }
+  .stuff__item-box h4 {
+    margin-bottom: 15px;
+  }
+
   .stuff__item-box p {
-    font-size: 17px;
-  }
-  .stuff__item-box--1 {
-    top: 270px;
-  }
-  .stuff__item-box--2 {
-    top: 630px;
-  }
-  .stuff__item-box--3 {
-    top: 970px;
+    font-size: 14px;
+    line-height: 19px;
   }
   .stuff__item img {
     width: 160px;
   }
   .immigration__title {
-    font-size: 35px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
   }
   .immigration__box a {
-    font-size: 23px;
+    font-size: 18px;
   }
   .immigration__box {
     font-size: 17px;
     margin-bottom: 35px;
   }
-}
-@media (max-width: 350px) {
-  .business-services__middle-header {
-    top: 41%;
+  .immigration__box p {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 40px;
   }
 }

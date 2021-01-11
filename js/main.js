@@ -1,22 +1,25 @@
 $(function () {
-  $(".stuff__item-name, .immigration__item-title").on("click", function (
-    event
-  ) {
-    event.preventDefault();
-    $(".stuff__item-name.active, .immigration__item-title.active")
-      .not(this)
-      .removeClass("active");
-    $(this).toggleClass("active");
-  });
+  $(".stuff__item-name, .immigration__item-title").on(
+    "click",
+    function (event) {
+      event.preventDefault();
+      $(".stuff__item-name.active, .immigration__item-title.active")
+        .not(this)
+        .removeClass("active");
+      $(this).toggleClass("active");
+    }
+  );
 
   $(".burger-menu").on("click", function () {
     $(".menu-aside").toggleClass("active");
+    $(".burger-menu").toggleClass("active");
   });
 
   $(
     ".intro, .contactform, .business-services, .canadian-immigration, .citizenship, .about-us, .immigration-services"
   ).on("click", function () {
     $(".menu-aside.active").removeClass("active");
+    $(".burger-menu.active").removeClass("active");
     $(this).removeClass("shadow");
   });
 
