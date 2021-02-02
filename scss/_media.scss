@@ -441,7 +441,9 @@
     font-size: 35px;
   }
   .send {
-    font-size: 20px;
+    a {
+      font-size: 20px;
+    }
   }
   .stuff::before {
     display: none;
@@ -548,7 +550,7 @@
     font-size: 16px;
     line-height: 21px;
   }
-  .button.contact {
+  a.contact {
     font-size: 14px;
     line-height: 19px;
   }
@@ -580,7 +582,9 @@
     }
   }
   .story__inner .button-story {
-    font-size: 20px;
+    a {
+      font-size: 20px;
+    }
   }
   .specifics__inner-item {
     width: 90%;
@@ -603,7 +607,9 @@
     line-height: 19px;
   }
   .button.dark {
-    font-size: 15px;
+    a {
+      font-size: 15px;
+    }
   }
   .map {
     margin-top: 150px;
@@ -733,9 +739,9 @@
   }
   .talk-btn {
     padding: 15px 25px;
-  }
-  .talk-btn button {
-    font-size: 14px;
+    a {
+      font-size: 14px;
+    }
   }
   .canadian-immigration__inner h3 {
     font-size: 35px;
@@ -878,7 +884,9 @@
     font-size: 18px;
   }
   .send {
-    font-size: 14px;
+    a {
+      font-size: 14px;
+    }
   }
 }
 @media (max-width: 470px) {

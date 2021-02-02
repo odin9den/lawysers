@@ -199,11 +199,10 @@ nav {
   text-align: left;
   margin: 0;
 }
-.button {
-  color: #3f3e3b;
+.button.contact {
+  display: inline-block;
   height: 50px;
   border-radius: 50px;
-  font-weight: 800;
   padding: 15px 40px;
   background-color: #91b29c;
   border: none;
@@ -211,6 +210,7 @@ nav {
   z-index: 5;
   a {
     color: #3f3e3b;
+    font-weight: 800;
   }
 }
 .services {
@@ -350,21 +350,23 @@ nav {
   text-align: center;
   padding-top: 130px;
   .button-story {
-    color: #ffffff;
+    display: inline-block;
     position: static;
-    font-size: 35px;
-    font-weight: 600;
     text-transform: uppercase;
     background: none;
-    letter-spacing: 5px;
     padding: 15px 80px;
     border-radius: 50px;
-    font-weight: 800;
     background-color: #89aa94;
     border: none;
     cursor: pointer;
     z-index: 5;
     margin-bottom: 120px;
+    a {
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: 600;
+      letter-spacing: 5px;
+    }
   }
 }
 .story__inner-title {
@@ -416,16 +418,18 @@ nav {
   }
 }
 .button.dark {
-  height: 75px;
+  display: inline;
+  border: none;
   background-color: #0c0c0c;
   padding: 15px 40px;
   font-weight: 800;
-  color: #ffffff;
   position: static;
-  font-size: 30px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  a {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
 }
 .map {
   margin-top: 250px;
@@ -621,6 +625,7 @@ nav {
   }
   div {
     text-align: left;
+    font-size: 45px;
     span {
       padding-left: 20px;
     }
@@ -658,15 +663,16 @@ nav {
   }
 }
 .send {
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  font-weight: 800;
+  a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #54524f;
+  }
   background-color: #bbb6b1;
   padding: 10px 50px;
   border: 0;
   border-radius: 50px;
-  margin-top: 35px;
-  text-align: right;
   position: absolute;
   right: 10%;
   bottom: 120px;
@@ -884,9 +890,10 @@ nav {
   background-color: #89aa94;
   padding: 30px 50px;
   border-radius: 50px;
+  border: none;
   display: inline-block;
   margin-bottom: 115px;
-  button {
+  a {
     background-color: transparent;
     border: 0;
     text-transform: uppercase;
